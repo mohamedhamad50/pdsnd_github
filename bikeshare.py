@@ -28,7 +28,7 @@ def get_filters():
         else:
             city = input('Enter Correct city: ').lower()
              #lower is used to get input in any format
-    # get user input for month (all, january, february, ... , june)
+    # get user input for month (all, january, february, ... , june,july)
     month = input('\nWhich month? January, February, March, April, May, or June?\n').lower()
      #lower is used to get input in any format
 
@@ -134,7 +134,7 @@ def station_stats(df):
 def trip_duration_stats(df):
     """Displays statistics on the total and average trip duration."""
 
-    print('\nCalculating Trip Duration...\n')
+    print('\nCalculating Trip Duration.......\n')
     start_time = time.time()
 
     # display total travel time
